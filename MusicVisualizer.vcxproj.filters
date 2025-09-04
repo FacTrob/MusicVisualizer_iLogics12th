@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="Source\Graphics\Shaders\VertexShader.hlsl">
+      <Filter>Source\Graphics\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Graphics\Shaders\PixelShader.hlsl">
+      <Filter>Source\Graphics\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio\AudioLoader.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio\FFTProcessor.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio\FrequencyAnalyzer.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Window\WindowManager.cpp">
+      <Filter>Source\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\ColorManager.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\ShapeGenerator.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Renderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Visualization\AnimationSystem.cpp">
+      <Filter>Source\Visualization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Visualization\GeometricPatterns.cpp">
+      <Filter>Source\Visualization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Visualization\VisualizationEngine.cpp">
+      <Filter>Source\Visualization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\MathUtils.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\Timer.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\GUIManager.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio\AudioPlayer.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Application.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Audio\AudioLoader.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Audio\FFTProcessor.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Audio\FrequencyAnalyzer.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window\WindowManager.h">
+      <Filter>Source\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ColorManager.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ShapeGenerator.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Renderer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Visualization\GeometricPatterns.h">
+      <Filter>Source\Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Visualization\AnimationSystem.h">
+      <Filter>Source\Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Visualization\VisualizationEngine.h">
+      <Filter>Source\Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils\Timer.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils\MathUtils.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ShapeTypes.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\GUIManager.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Audio\AudioPlayer.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{787bdd39-026b-41fa-9113-ead946dc1b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependecies">
+      <UniqueIdentifier>{12938e36-565f-424f-ba22-b31d92b78ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MusicVisualizer">
+      <UniqueIdentifier>{1400823d-7de2-4e71-9dd9-2ecaae3ae5fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{ae14972f-e975-41dc-b449-504ebe9ba7cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Audio">
+      <UniqueIdentifier>{dc2bef22-afb2-409a-8355-3d565c9603b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{9fba6bda-e94d-4c80-b387-a9b2403dd54b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Shaders">
+      <UniqueIdentifier>{f038f7b7-9c89-4ffd-a868-a43922906f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{d4656972-4940-48bf-ac0b-44abca2e8182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Visualization">
+      <UniqueIdentifier>{f9f62a5f-2e70-45ad-aee6-65a9c4034a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Window">
+      <UniqueIdentifier>{b2e1e601-ec07-44f3-9612-ef62c0407919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\shaders">
+      <UniqueIdentifier>{21cbcb0e-9c4f-49c4-9a88-3a23854fa6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependecies\include">
+      <UniqueIdentifier>{764264d0-c178-4d87-bec6-eba703fada5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependecies\lib">
+      <UniqueIdentifier>{6910117e-7c89-400d-ab19-14b297732f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GUI">
+      <UniqueIdentifier>{0816df35-a7a6-4434-beab-9a453f07bb06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
